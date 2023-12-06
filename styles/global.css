@@ -1,0 +1,47 @@
+@import "https: //fonts.googleapis.com/css2? family= Montserrat:wght@500 & display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho {
+    background-color: slategray;
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.cabeçalho .logo-cabeçalho {
+    position: static;
+    width: fit-content;
+}
+
+.menu-cabeçalho .menu-lista {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 320px;
+    width: 100%;
+    gap: 20px;
+}
+
+.destaque .capa-filme {
+    display: flex;
+    height: 500px;
+    margin-left: 1000px;
+    margin-top: -290px;
+    position: absolute;
+}
+
+.destaque .descrição-filme {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-top: 100px;
+    width: 500px;
+    padding: 20px;
+}
