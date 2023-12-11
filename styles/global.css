@@ -6,7 +6,7 @@
 }
 
 .cabeçalho {
-    background-color: slategray;
+    background-color: rgb(28, 31, 34);
     padding: 40px;
     position: fixed;
     width: 100%;
@@ -23,6 +23,7 @@
     list-style: none;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
     font-weight: 500;
     margin-left: 320px;
     width: 100%;
