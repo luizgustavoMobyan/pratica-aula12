@@ -40,30 +40,26 @@ height: 100px;
 
 .capa-filme {
     display: flex;
-    margin-left: 1000px;
-    margin-top: -50px;
-    position: absolute;
+    margin-top: 0px;
 }
 
 .destaque {
     display: flex;
-    background-color: rgb(218, 218, 218);
     padding: 50px;
     background-image: url(../imagens/capa-fundo.jpg);
     background-size: 100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 .descrição-filme {
     font-family: 'Montserrat', sans-serif;
-    color:white;
-    margin-top: 80px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
     margin-left: 20px;
-    width: 600px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 400px;
-    text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0)
+    width: 750px;
+    padding-left: 50px;
+    text-shadow: 0.2em 0.2em 0.2em rgb(0, 0, 0)
 }
 
 .genero {
