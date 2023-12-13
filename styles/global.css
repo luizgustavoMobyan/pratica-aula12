@@ -43,6 +43,11 @@ height: 100px;
     background-size: cover;
 }
 
+.trailer {
+    width: 100%;
+    height: 50vh;
+}
+
 .descrição-filme {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
