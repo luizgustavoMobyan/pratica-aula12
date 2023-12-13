@@ -21,10 +21,6 @@ width: 100px;
 height: 100px;
 }
 
-.pesquisa {
-    margin-left: 500px;
-}
-
 .lista {
     display: flex;
     list-style: none;
@@ -38,28 +34,21 @@ height: 100px;
     justify-content: center;
 }
 
-.capa-filme {
+.box-destaque {
     display: flex;
-    margin-top: 0px;
-}
-
-.destaque {
-    display: flex;
+    gap: 50px;
     padding: 50px;
     background-image: url(../imagens/capa-fundo.jpg);
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .descrição-filme {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    margin-top: 5px;
-    margin-left: 20px;
-    width: 750px;
-    padding-left: 50px;
-    text-shadow: 0.2em 0.2em 0.2em rgb(0, 0, 0)
+    width: 100%;
+    text-shadow: 0.2em 0.2em 0.2em rgb(0, 0, 0);
 }
 
 .genero {
