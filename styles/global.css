@@ -92,6 +92,7 @@ height: 100px;
     display: grid;
     grid-template-columns: repeat (6, 100px);
     grid-template-rows: repeat (1, 100px);
+    grid-auto-flow:row;
     grid-template-areas:
     "filme1 filme2 filme3 filme4 filme5 filme6";
     column-gap: 20px;
@@ -114,9 +115,9 @@ height: 100px;
 
 .contato {
     background-color: rgb(28, 31, 34);
-    padding: 20px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    padding: 10px;
 }
 
 form {
@@ -127,11 +128,11 @@ form {
     border-radius: 1em;
   }
 
-  form div + div {
+form div + div {
     margin-top: 1em;
   }
 
-  label {
+label {
     display: inline-block;
     width: 90px;
     text-align: right;
@@ -155,9 +156,11 @@ textarea {
     resize: vertical;
   }
 
-  .button {
+.button {
     padding-left: 90px;
-  }
-  button {
     margin-left: 0.5em;
   }
+
+.rodape {
+    font-family: 'Montserrat', sans-serif;
+}
