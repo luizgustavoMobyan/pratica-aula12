@@ -6,31 +6,11 @@
     padding: 0;
 }
 
-.cabeçalho {
-    background-color: rgb(28, 31, 34);
-    width: 100%;
-}
-
 .logo {
-width: fit-content;
-padding-left: 20px;
-padding-top: 10px;
-width: 100px;
-height: 100px;
-}
-
-.lista {
-    display: flex;
-    list-style: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    color: aliceblue;
-    font-weight: 500;
-    margin-top: -100px;
-    padding: 40px;
-    gap: 50px;
-    justify-content: center;
-}
+    width: fit-content;
+    width: 100px;
+    height: 100px;
+    }
 
 .box-destaque {
     display: flex;
@@ -79,7 +59,7 @@ height: 100px;
 /*CSS AREA FILMES RECOMENDADOS*/
 
 .box-recomendados {
-    background-color: rgb(28, 31, 34);
+    background-color: #24242c;
     width: 100%;
     padding: 10px;
 }
@@ -107,7 +87,7 @@ height: 100px;
 /*CSS AREA CONTATO*/
 
 .contato {
-    background-color: rgb(28, 31, 34);
+    background-color: #24242c;
     color: white;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
